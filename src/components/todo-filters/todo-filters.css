@@ -1,0 +1,34 @@
+.todo-filters{
+	margin-bottom: 20px;
+	padding: 0 30px;
+}
+
+.todo-filter{
+	border: none;
+	background: none;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #f7f3f3;
+	margin-right: 25px;
+	padding: 10px;
+	outline: 1px solid #b7c2c1;	
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.todo-filter:focus{
+	outline: none;
+	background: #f5f0f0;
+	border-radius: 10px;
+	
+}
+
+.todo-filter:hover{
+	color: #1b1b1b;
+	cursor: pointer;
+}
+
+.todo-filter--active{
+	color: #1b1b1b;
+	border-bottom: 1px solid #ece4e4;
+}

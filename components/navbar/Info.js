@@ -5,7 +5,7 @@ const Info = () =>{
   return (
     <div className="infopage">
       <p>The name of the author: Md Saiful Islam</p>
-      <p>Short instructions: As a user, I can
+      <p>Short instructions: As an user, you can
         <li>Read a list of tasks.</li>
         <li>Add a task using the mouse or keyboard.</li>
         <li>Mark any task as completed, using the mouse or keyboard.</li>
